@@ -1,0 +1,38 @@
+https://scotch.io/tutorials/working-with-django-templates-static-files
+https://colorlib.com/preview/theme/store/
+login/register/logout
+https://www.youtube.com/watch?v=tUqUdu0Sjyc&t=1863s
+https://www.ordinarycoders.com/blog/article/django-user-register-login-logout
+https://simpleisbetterthancomplex.com/tutorial/2017/02/18/how-to-create-user-sign-up-view.html
+
+------------------------------ TO DO --------------------------------------
+    Zavrsiti - base.html
+    Napraviti modele - products - podproduct - oglas - user - blog?
+    Poboljsati zastitu sajta
+    Napraviti sistem za komunikaciju
+    Napraviti Blog?????
+    Napraviti funkcije - Cart / Favorites / Views(Koliko klikova/pregleda)
+    Register/Login/Logout - session
+    Profil/Edit/Autentikacija
+    AUtorizacija
+    Sistem za Lajk/Dislajk - nagrade <100 Lajkova
+    Promeni lozinku
+    
+------------------------------ DONE --------------------------------------
+    Dodat model - Proizvod i Podproizvod - dodato u admin.py
+    Register
+    Login
+
+------------------------------ END --------------------------------------
+
+
+SuperUser: coan
+email:     admin@admin.com
+pass:      admin
+
+
+
+*** za dodavanje slika u oglas koristiti
+# def user_directory_path(instance, filename):
+#     # file will be uploaded to MEDIA_ROOT/<user_id>/<filename>
+#     return 'user_{0}/{1}'.format(instance.user.id, filename)

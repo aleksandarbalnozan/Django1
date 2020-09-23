@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block context %}
+<div class="jumbotron">
+  <h1>Hello World</h1>
+</div>
+<div class="row">
+    {% for proizvod in proizvods %}
+    <div class="col-md-3">
+      <a href="#">
+        <div class="card">
+          <img src="/static/{{ proizvod.Slika }}" class="card-img-top" alt="Card img">
+          <div class="card-body">
+            <h5 class="card-title text-center">{{ proizvod.Naziv }}</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
